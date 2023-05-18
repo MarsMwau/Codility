@@ -5,8 +5,8 @@
 
 def sum_hash_values(hash)
     # Your code here
+    hash.values.sum
 end
-  
 # Example usage
 input = { a: 1, b: 2, c: 3, d: 4 }
 output = sum_hash_values(input)
